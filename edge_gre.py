@@ -15,7 +15,7 @@ async def create_one(text, voice, file) -> None:
     await communicate.save(file)
 
 async def main() -> None:
-    i = 0
+    i = 1
     for sentence in gres:
         i += 1
         print(f'###{i}###: {sentence}')
